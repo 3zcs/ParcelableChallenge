@@ -1,7 +1,7 @@
 package com.example.udacity.mena.parcelablechallenge;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class ShowStudentActivity extends AppCompatActivity {
 
@@ -9,6 +9,6 @@ public class ShowStudentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_student);
-        //TODO receive the list and print first item as Toast
+        //TODO receive the list and show a list view of student
     }
 }
